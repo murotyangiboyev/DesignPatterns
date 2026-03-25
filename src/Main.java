@@ -1,3 +1,6 @@
+
+import FactoryMethod.EmailNotification;
+import FactoryMethod.EmailNotificationFactory;
 import FactoryMethod.Notification;
 import FactoryMethod.NotificationFactory;
 import Singleton.SingletonPattern;
@@ -19,9 +22,9 @@ public class Main {
 
         // factory method usage
 
-        NotificationFactory factory = new NotificationFactory();
-        Notification note = factory.createNotification("EMAIL");
-        note.notifyUser();
+        NotificationFactory factory = new EmailNotificationFactory();
+        Notification notification = factory.createNotification();
+        notification.notifyUser();
 
 
     }
