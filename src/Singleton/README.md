@@ -24,3 +24,9 @@ The **Singleton** pattern ensures that a class has only one instance and provide
 ### Components
 
 ![img.png](img.png)
+
+
+
+
+### That is the explanation of The Singleton design pattern by Murat !
+

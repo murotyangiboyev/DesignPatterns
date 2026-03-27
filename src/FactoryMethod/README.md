@@ -15,3 +15,7 @@
 ### Example:
 
 ![img.png](img.png)
+
+
+
+### ### That is the explanation of The Factory method design pattern by Murat !
