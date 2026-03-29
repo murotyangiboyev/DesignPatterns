@@ -27,6 +27,9 @@
 * **Client:** Uses the prototype to create new objects by calling the clone() method.
 * **Clone Method:** Specifies how an object is copied and is implemented by concrete prototypes.
 
+### Example
+![img.png](img.png)
+
 
 ### Clone
 * There are two types of cloning: Shallow and Deep copy.
@@ -34,10 +37,8 @@
 * Deep copy can also clone the object variables inside the cloning class.
 * **PS:** That is why prototype pattern uses the Deep copy.
 
+![img_1.png](img_1.png)
 
-
-### Example
-![img.png](img.png)
 
 
 
