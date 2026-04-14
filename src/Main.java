@@ -1,17 +1,15 @@
 
-import Builder.BrickHouseBuilder;
-import Builder.House;
-import Builder.HouseBuilder;
-import Builder.HouseDirector;
-import Builder.WoodHouseBuilder;
-import FactoryMethod.EmailNotification;
-import FactoryMethod.EmailNotificationFactory;
-import FactoryMethod.Notification;
-import FactoryMethod.NotificationFactory;
-import Prototype.AnimalPrototype;
-import Prototype.Sheep;
-import Prototype.Stomach;
-import Singleton.SingletonPattern;
+import CreationalPatterns.Builder.BrickHouseBuilder;
+import CreationalPatterns.Builder.House;
+import CreationalPatterns.Builder.HouseBuilder;
+import CreationalPatterns.Builder.HouseDirector;
+import CreationalPatterns.Builder.WoodHouseBuilder;
+import CreationalPatterns.FactoryMethod.EmailNotificationFactory;
+import CreationalPatterns.FactoryMethod.Notification;
+import CreationalPatterns.FactoryMethod.NotificationFactory;
+import CreationalPatterns.Prototype.Sheep;
+import CreationalPatterns.Prototype.Stomach;
+import CreationalPatterns.Singleton.SingletonPattern;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,10 +18,10 @@ public class Main {
 
 //         singleton pattern usage
         SingletonPattern singletonPattern =  SingletonPattern.getInstance();
-        singletonPattern.query("Singleton pattern 1");
+        singletonPattern.query("CreationalPatterns.Singleton pattern 1");
 
         SingletonPattern singletonPattern2 =  SingletonPattern.getInstance();
-        singletonPattern2.query("Singleton pattern 2");
+        singletonPattern2.query("CreationalPatterns.Singleton pattern 2");
 
         System.out.println(singletonPattern == singletonPattern2);
 
