@@ -1,4 +1,4 @@
-# CreationalPatterns.Singleton Pattern
+# Singleton Pattern
 
 ### 🎯 What problem it solves
 The **CreationalPatterns.Singleton** pattern ensures that a class has only one instance and provides a global point of access to it.

@@ -1,4 +1,4 @@
-# CreationalPatterns.Builder
+# Builder
 
 ### Definition
 

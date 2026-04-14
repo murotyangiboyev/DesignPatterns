@@ -1,4 +1,4 @@
-# CreationalPatterns.Prototype 
+# Prototype 
 
 ### Definition
 
